@@ -142,7 +142,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #032570;
+  color: #868e96;
 }
 
 @media (min-width: 992px) {
@@ -176,7 +176,8 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), color-stop(55%, rgba(0, 0, 0, 0.5)), to(#000)), url("../img/header-bg-3.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.5) 55%, #000 100%), url("../img/header-bg-3.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
