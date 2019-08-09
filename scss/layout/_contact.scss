@@ -1,7 +1,7 @@
 // Styling for the contact section
 section#contact {
   background-color: $gray-900;
-  background-image: url('../img/bg-contact.jpg');
+  background-image:  linear-gradient(to bottom, #{fade-out($black, .7)} 0%,#{fade-out($black, .5)} 55%,$black 100%), url('../img/bg-contact.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
