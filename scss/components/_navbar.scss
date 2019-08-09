@@ -13,6 +13,7 @@
   }
   .navbar-brand {
     color: $primary;
+    max-width:100px;
     @include script-font;
     &.active,
     &:active,
@@ -48,10 +49,7 @@
     border: none;
     background-color: transparent;
     .navbar-brand {
-      font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s;
+      max-width:150px;
     }
     .navbar-nav {
       .nav-item {
